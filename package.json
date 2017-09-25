@@ -1,16 +1,38 @@
 {
   "name": "mad-nikis",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/express": "^4.0.37",
+    "@types/node": "^8.0.30",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "http": "^0.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13"
+    "typescript": "^2.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was created just for lulz",
+  "main": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/netizvini/mad-nikis.git"
+  },
+  "author": "Dmitry Kovtunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netizvini/mad-nikis/issues"
+  },
+  "homepage": "https://github.com/netizvini/mad-nikis#readme"
 }
