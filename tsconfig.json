@@ -1,22 +1,18 @@
 {
-    "include": ["./src/**/*"],
-    "exclude": ["node_modules"],
     "compilerOptions": {
-        "outDir": "./dist",
-        "sourceMap": true,
-        "module": "es6",
+        "module": "commonjs",
         "moduleResolution": "node",
-        "target": "es6",
+        "target": "ES6",
         "jsx": "react",
         "newLine": "LF",
-        "allowSyntheticDefaultImports": true,
         "suppressImplicitAnyIndexErrors": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
         "noUnusedParameters": true,
         "noImplicitReturns": true,
         "pretty": true,
-        "baseUrl": "./",
-        "paths": {"*": ["node_modules/@types/*"]}
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true
     }
 }
